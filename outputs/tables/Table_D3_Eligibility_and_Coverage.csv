@@ -1,0 +1,13 @@
+Ticker,FirstValidPriceDate,LastValidPriceDate,HistoricalPriceExistsBeforeDecisionDate,SecurityTypeOrMandate,SelectionBiasNote
+AAPL,2015-01-02,2025-12-31,True,Information Technology,Historical existence verified; retrospective universe selection still disclosed
+MSFT,2015-01-02,2025-12-31,True,Information Technology,Historical existence verified; retrospective universe selection still disclosed
+JPM,2015-01-02,2025-12-31,True,Financials,Historical existence verified; retrospective universe selection still disclosed
+JNJ,2015-01-02,2025-12-31,True,Health Care,Historical existence verified; retrospective universe selection still disclosed
+PG,2015-01-02,2025-12-31,True,Consumer Staples,Historical existence verified; retrospective universe selection still disclosed
+HD,2015-01-02,2025-12-31,True,Consumer Discretionary,Historical existence verified; retrospective universe selection still disclosed
+CAT,2015-01-02,2025-12-31,True,Industrials,Historical existence verified; retrospective universe selection still disclosed
+CVX,2015-01-02,2025-12-31,True,Energy,Historical existence verified; retrospective universe selection still disclosed
+KO,2015-01-02,2025-12-31,True,Consumer Staples,Historical existence verified; retrospective universe selection still disclosed
+WMT,2015-01-02,2025-12-31,True,Consumer Staples,Historical existence verified; retrospective universe selection still disclosed
+SPY,2015-01-02,2025-12-31,True,Broad U.S. large-cap equity ETF,Historical existence verified; retrospective universe selection still disclosed
+IWM,2015-01-02,2025-12-31,True,U.S. small-cap equity ETF,Historical existence verified; retrospective universe selection still disclosed

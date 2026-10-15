@@ -1,0 +1,9 @@
+Maturity,SpotRate,Source
+1,0.04300301427871123,Observed from Alpha zero
+2,0.04100044077008991,Observed from Beta zero
+3,0.039000126677531055,Bootstrapped from Gamma
+4,0.03850031611678291,Interpolated
+5,0.03800050555603476,Solved from Delta
+6,0.03833347949470121,Interpolated
+7,0.03866645343336766,Interpolated
+8,0.03899942737203411,Solved from Epsilon

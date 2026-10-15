@@ -1,0 +1,9 @@
+Item,FrozenDecision
+Candidate universe,"AAPL, MSFT, JPM, JNJ, PG, HD, CAT, CVX, KO, WMT, SPY, IWM"
+Estimation window,Jan 2015-Dec 2022 common monthly observations
+Growth benchmark,SPY
+Initial growth strategy,Utility_SingleIndex
+Initial dollar allocation,Table_P7_Full_Allocation
+Material assumptions,Inflation 2.0%; A=4; stock cap 15%; ETF cap 35%; trading cost 0.10%
+Evaluation rule,Compare the frozen growth policy with frozen SPY benchmark over Jan-2023 to Dec-2025; do not refit parameters using evaluation-period observations
+Rebalancing rule,Annual return to frozen target weights on 31 December

@@ -1,0 +1,12 @@
+Item,Treatment
+Market-data source,Yahoo Finance via yfinance; saved untransformed response
+Raw frequency,Daily
+Monthly sampling,Last available adjusted close in each calendar month
+Return definition,"P_adj,t / P_adj,t-1 - 1"
+Corporate-action treatment,Yahoo Adjusted Close; auto_adjust=False in retrieval script
+Estimation window,Jan 2015-Dec 2022
+Evaluation window,Jan 2023-Dec 2025; isolated from decision estimation
+Missing-data treatment,Common complete months only; no imputation
+Units,Decimal monthly returns
+Benchmark,SPY
+Retrospective-selection limitation,Universe selected retrospectively for the case; historical existence does not remove selection/survivorship bias

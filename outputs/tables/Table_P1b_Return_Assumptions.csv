@@ -1,0 +1,5 @@
+Input,Value,Caveat
+Annualized risk-free input,0.008564210526315789,Estimated from 2015-2022 French RF
+Annualized market excess-return input,0.10456421052631584,Estimated from 2015-2022 French Mkt-RF; not a promised future premium
+Base expected-return model,CAPM-style: RF + beta x market premium,Common systematic framework; still dependent on historical inputs
+Alternative expected-return model,"Asset historical arithmetic mean, sensitivity only",Noisy and highly optimizer-sensitive

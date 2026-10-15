@@ -1,0 +1,3 @@
+Liability,PaymentYear,RequiredPayment,FundingAsset,Units,InitialCost,FundingMethod
+Scholarship programme,2024,2400000,Beta,2400.0,2214672.0,2Y zero-coupon maturity match
+Learning centre,2027,3600000,Delta,3063.8297872340427,3021150.6382978726,Delta coupons ring-fenced; 0% base reinvestment

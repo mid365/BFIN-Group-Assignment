@@ -1,0 +1,5 @@
+Metric,Value,Interpretation
+Trustee reference loss level,-0.15,Reference concern only; not a formal hard limit
+Growth share of initial fund,0.5631183284800306,Liability reserve is separated first
+Approximate 5% one-year growth return,-0.15803420391976947,"Normal approximation; diagnostic, not guarantee"
+Approximate growth-driven total-fund impact,-0.08899195675397288,Excludes one-year bond MTM movement; Section 02 covers rate shocks

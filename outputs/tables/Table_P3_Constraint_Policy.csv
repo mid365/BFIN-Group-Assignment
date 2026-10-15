@@ -1,0 +1,8 @@
+Constraint,BasePolicy,Reason
+Long only,Yes,Mandate
+Fully invested growth sleeve,Yes,Compare complete growth allocations on same capital base
+Maximum stock weight,0.15,Limit single-name estimation/concentration risk
+Maximum ETF weight,0.35,Allow diversified ETF core without dominating entire sleeve
+Borrowing,Prohibited,Mandate
+Short selling,Prohibited,Mandate
+Derivatives,Prohibited,Mandate

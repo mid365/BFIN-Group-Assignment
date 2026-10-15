@@ -1,0 +1,7 @@
+RuleItem,Treatment
+Common-stock count,10 U.S. common stocks
+Sector breadth,At least four sectors; actual universe spans more than four
+ETF mandates,SPY broad large-cap U.S. equity; IWM U.S. small-cap equity
+Case-date eligibility,Supported by 2022 SEC filings listed in Table_D1
+Post-2022 information,2023-2025 returns excluded from selection and estimation
+Retrospective limitation,Historical eligibility does not make the retrospective selection unbiased; survivorship/selection bias is disclosed

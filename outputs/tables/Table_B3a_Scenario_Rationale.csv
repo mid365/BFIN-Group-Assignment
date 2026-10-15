@@ -1,0 +1,3 @@
+ScenarioInput,Magnitude,QuantitativeRationale
+Parallel shock,0.01,100 bp is about 25% of the average starting 1Y-8Y spot rate; it is a material stress rather than a forecast.
+Curve-shape shock,0.0075,A +/-75 bp slope loading produces about a 150 bp short-to-long change across the 1Y-8Y curve while leaving the central level broadly unchanged.

@@ -1,0 +1,14 @@
+PolicyItem,Policy
+Initial-policy freeze date,2026-10-22
+Liability priority,Fund mandatory payments before growth allocation
+Initial growth strategy,Utility_SingleIndex
+Growth benchmark,SPY
+Re-estimation during 2023-2025 evaluation,None; 31-Dec-2022 target weights and model choices remain frozen
+Growth rebalancing rule,Rebalance annually back to the frozen initial target weights
+Rebalancing timing,"31 December, after any scheduled liability payment"
+Maximum stock weight,15%
+Maximum ETF weight,35%
+Borrowing,Prohibited
+Short selling,Prohibited
+Derivatives,Prohibited
+Base trading cost,0.10% one-way

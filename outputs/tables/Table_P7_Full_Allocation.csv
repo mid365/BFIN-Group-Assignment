@@ -1,0 +1,16 @@
+Sleeve,SecurityOrUse,DollarAllocation,Role,PercentOfTotalFund
+2024 Liability,Beta,2214672.0,Fund 2024 scholarship payment,0.184556
+2027 Liability,Delta,3021150.6382978726,Fund 2027 learning-centre payment,0.2517625531914894
+Growth,AAPL,206873.721323281,2030 real-value objective,0.017239476776940085
+Growth,MSFT,267235.58298109757,2030 real-value objective,0.022269631915091462
+Growth,JPM,443101.76739426237,2030 real-value objective,0.036925147282855196
+Growth,JNJ,363602.9918084568,2030 real-value objective,0.030300249317371398
+Growth,PG,140734.8432415361,2030 real-value objective,0.011727903603461341
+Growth,HD,294258.6953710043,2030 real-value objective,0.02452155794758369
+Growth,CAT,155147.3844740206,2030 real-value objective,0.012928948706168383
+Growth,CVX,202423.96763182146,2030 real-value objective,0.016868663969318454
+Growth,KO,160307.42672826853,2030 real-value objective,0.013358952227355711
+Growth,WMT,236400.802724163,2030 real-value objective,0.01970006689368025
+Growth,SPY,2365096.9796161284,2030 real-value objective,0.1970914149680107
+Growth,IWM,1922235.778466328,2030 real-value objective,0.160186314872194
+Implementation,Initial trading cost,6757.419941760368,10 bps one-way growth implementation cost,0.0005631183284800306

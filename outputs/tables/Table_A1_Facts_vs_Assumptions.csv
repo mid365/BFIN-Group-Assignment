@@ -1,0 +1,11 @@
+Item,Value,Status,Rationale
+Initial capital,12000000,Case fact,Given by case
+2024 payment,2400000,Case fact,Fixed nominal obligation
+2027 payment,3600000,Case fact,Fixed nominal obligation
+2030 real-value objective,8000000,Case fact,Goal stated in Dec-2022 purchasing power
+Trustee loss concern,Losses approaching 15%; metric/horizon not specified,Case fact,"Interpreted later as a diagnostic, not a guaranteed floor"
+Base inflation,0.02,Model assumption,2% long-run anchor from the FOMC's Jan-2022 statement; sensitivity shown
+Base risk aversion A,4,Model assumption,"Preference parameter chosen for comparison; sensitivity A=2,4,6,8 shown"
+Stock weight cap,0.15,Additional limit,Limits single-name concentration and estimation error
+ETF weight cap,0.35,Additional limit,Allows diversified ETF core while preventing full concentration
+Base one-way trading cost,0.001,Implementation assumption,Conservative implementation assumption; sensitivity 0/10/25 bps shown

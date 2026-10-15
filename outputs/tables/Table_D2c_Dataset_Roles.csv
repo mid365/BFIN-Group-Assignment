@@ -1,0 +1,4 @@
+Dataset,Role,ImportantDifference
+Yahoo adjusted-price returns,Asset and ETF monthly return construction,Market-traded adjusted-price returns
+Kenneth French Mkt-RF / RF,CAPM-style expected-return inputs and later factor analysis,Mkt-RF is a research factor and is not the same series as SPY
+SPY,Investable benchmark and single-index market proxy,SPY is investable and may differ from the French market factor

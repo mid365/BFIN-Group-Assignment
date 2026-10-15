@@ -1,0 +1,13 @@
+Item,Value
+Candidate assets,12
+Base expected-return framework,CAPM-style common systematic forecast
+Base risk model,Single-index
+Base risk aversion,4
+Initial growth strategy,Utility_SingleIndex
+Credible rejected alternative,Eta_Historical_MaxSharpe
+Risk-model allocation turnover,0.10414094000883409
+Expected-return-model turnover,0.6881419524788575
+Initial liability reserve,5235822.638297873
+Growth invested notional,6757419.941760368
+Initial trading cost,6757.419941760368
+Full initial use of capital,12000000.0

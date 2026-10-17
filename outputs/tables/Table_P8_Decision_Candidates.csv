@@ -1,0 +1,4 @@
+Strategy,ExpectedReturn_CommonLens,Volatility_CommonLens,Sharpe_CommonLens,Utility_A4_CommonLens,LargestWeight,DecisionStatus
+Utility_SampleCov,0.10923469930400197,0.16224314326000586,0.6204914842925273,0.0565890242342284,0.35,Required model-comparison portfolio
+Utility_SingleIndex,0.11011285836620213,0.16302180283122925,0.6229145186488712,0.05696064196951377,0.35,Recommended initial growth policy
+Eta_Historical_MaxSharpe,0.09329370480201485,0.14938147924942755,0.5672021371151589,0.04866405211652055,0.15,Credible rejected alternative

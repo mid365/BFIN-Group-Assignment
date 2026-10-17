@@ -1,0 +1,6 @@
+Monitor,EvidenceThatWouldChangePolicy,Action
+Liability reserve,Any shortfall in contractual cash coverage or failure to ring-fence Delta coupons,Restore funding coverage before taking growth risk
+Inflation / real-value requirement,A sustained inflation assumption that materially raises the required CAGR beyond the policy's defensible return range,"Reassess feasible target, growth risk and trade-off explicitly"
+Expected-return assumption,A forecast deterioration beyond the utility indifference threshold in Table_G3,Re-evaluate the recommended versus rejected allocation using the predeclared rule
+Risk tolerance,Trustees formally define a loss metric/horizon that the current allocation violates,"Re-optimize under the newly specified risk preference, documenting the mandate change"
+Concentration and mandate compliance,"A holding breaches eligibility, concentration limits, or the no-borrowing/no-short/no-derivatives mandate",Rebalance or replace only under the governing policy and document the change

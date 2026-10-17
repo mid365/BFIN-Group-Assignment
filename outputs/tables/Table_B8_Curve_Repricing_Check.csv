@@ -1,0 +1,11 @@
+CurveMethod,Bond,ObservedPrice,RepricedPrice,AbsoluteError
+Linear spot interpolation,Alpha,958.77,958.77,0.0
+Linear spot interpolation,Beta,922.78,922.78,0.0
+Linear spot interpolation,Gamma,1002.49,1002.49,0.0
+Linear spot interpolation,Delta,986.07,986.0699999999999,1.1368683772161603e-13
+Linear spot interpolation,Epsilon,1040.71,1040.7099999999655,3.456079866737127e-11
+Log-linear discount-factor interpolation,Alpha,958.77,958.77,0.0
+Log-linear discount-factor interpolation,Beta,922.78,922.78,0.0
+Log-linear discount-factor interpolation,Gamma,1002.49,1002.49,0.0
+Log-linear discount-factor interpolation,Delta,986.07,986.0699999999567,4.331468517193571e-11
+Log-linear discount-factor interpolation,Epsilon,1040.71,1040.7099999999907,9.322320693172514e-12

@@ -1,0 +1,3 @@
+Liability,RequiredPayment,FundingAsset,Units,InitialCost,ContractualCashAvailable,FundingRatio,FundingMethod
+2024 scholarship,2400000,Beta,2400.0,2214672.0,2400000.0,1.0,2Y zero-coupon maturity match
+2027 learning centre,3600000,Delta,3063.8297872340427,3021150.6382978726,3600000.0,1.0,5Y Delta; interim coupons ring-fenced; 0% base reinvestment

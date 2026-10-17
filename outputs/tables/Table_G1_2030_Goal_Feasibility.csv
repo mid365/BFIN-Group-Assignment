@@ -1,0 +1,7 @@
+Metric,Value,Interpretation
+Initial growth capital after initial trading cost,6757419.941760368,Capital pursuing the 2030 mission after liabilities are reserved
+2030 nominal target under base inflation,9747223.180079337,"Planning target, not a promised terminal value"
+Required annual compound return,0.046857334443618726,Break-even compound rate needed to hit the nominalized real-value objective
+Recommended portfolio arithmetic expected return,0.11011285836620213,CAPM-style arithmetic forecast input; not a guaranteed CAGR
+Recommended portfolio annual volatility estimate,0.16302180283122925,Single-index annualized risk estimate
+Arithmetic expected-return difference versus required CAGR,0.0632555239225834,Descriptive difference only; arithmetic expected return is not a compound success probability

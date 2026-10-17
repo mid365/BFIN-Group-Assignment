@@ -1,0 +1,12 @@
+PolicyItem,Policy
+Liability priority,Fund mandatory payments before allocating growth capital
+Frozen initial growth strategy,Utility_SingleIndex
+Benchmark,SPY
+Rebalancing schedule,Annually on 31 December; make any scheduled liability payment first
+Rebalancing rule,"After the liability payment, rebalance the remaining growth sleeve back to the original frozen target weights"
+Re-estimation during 2023-2025 evaluation,No re-estimation or re-optimization; future data cannot rewrite the initial decision
+Rebalancing trading cost,0.10% one-way on traded notional
+Maximum stock weight,15%
+Maximum ETF weight,35%
+Borrowing / shorting / derivatives,Prohibited
+Status after 22-Oct submission,Frozen policy; later evidence is compared against it and recorded in the decision log

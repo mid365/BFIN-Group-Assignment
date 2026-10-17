@@ -1,0 +1,14 @@
+Item,Value,Treatment
+Initial capital,12000000,Case fact
+2024 mandatory payment,2400000,Case fact
+2027 mandatory payment,3600000,Case fact
+2030 real-value objective,8000000,Case fact
+Base inflation assumption,0.025,Team planning assumption; document source/rationale in final memo
+2030 nominal target,9747223.180079337,Derived from real target and inflation assumption
+Trustee loss concern,Losses approaching 15%; horizon/metric unspecified,Case fact; treated as diagnostic rather than hard constraint
+Base risk aversion A,4,Base preference parameter; sensitivity required
+Risk-aversion comparison,"[2, 4, 6, 8]",Shows how assumed risk preference changes the choice
+Maximum stock weight,0.15,Additional concentration limit
+Maximum ETF weight,0.35,Additional concentration limit
+One-way equity/ETF trading cost,0.001,Team implementation assumption for liquid listed growth assets
+Bond trading-cost treatment,No additional cost beyond case executable quote,Case quotes are stated to be executable; no extra bond trading spread/cost is added

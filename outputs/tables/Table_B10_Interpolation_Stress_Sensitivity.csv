@@ -1,0 +1,11 @@
+CurveMethod,Scenario,LiabilitySleeveMarketValue,2024ContractualFundingRatioIfHeld,2027ContractualFundingRatioIfHeldAndCouponsRingFenced
+Linear spot interpolation,Base,5235822.638297873,1.0,1.0
+Linear spot interpolation,Parallel +100bp,5061673.874136547,1.0,1.0
+Linear spot interpolation,Parallel -100bp,5418879.273844899,1.0,1.0
+Linear spot interpolation,Steepener (+/-75bp slope),5248299.482422376,1.0,1.0
+Linear spot interpolation,Flattener (+/-75bp slope),5223821.129286405,1.0,1.0
+Log-linear discount-factor interpolation,Base,5235822.63829774,1.0,1.0
+Log-linear discount-factor interpolation,Parallel +100bp,5061674.27207166,1.0,1.0
+Log-linear discount-factor interpolation,Parallel -100bp,5418878.8271392835,1.0,1.0
+Log-linear discount-factor interpolation,Steepener (+/-75bp slope),5248299.977775954,1.0,1.0
+Log-linear discount-factor interpolation,Flattener (+/-75bp slope),5223820.633373177,1.0,1.0

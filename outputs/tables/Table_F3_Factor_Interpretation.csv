@@ -1,0 +1,4 @@
+Asset,MarketExposure,SMBExposure,HMLExposure,DoesFF3ImproveAdjustedR2,FF3AlphaSignificantAt5pct,DecisionInterpretation
+Recommended Growth Portfolio,Positive,Near zero,Positive,True,True,"Historical alpha is statistically distinguishable from zero in this sample, but it is still not assumed to persist out of sample."
+AAPL,Positive,Negative,Negative,True,False,Factor exposures help explain historical excess returns; alpha is not treated as persistent skill.
+JPM,Positive,Near zero,Positive,True,False,Factor exposures help explain historical excess returns; alpha is not treated as persistent skill.

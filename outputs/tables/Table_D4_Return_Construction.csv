@@ -1,11 +1,11 @@
 Item,Treatment
-Source frequency,Daily Yahoo Finance observations
-Portfolio frequency,Month-end
-Price field,Adjusted Close
-Return definition,Simple percentage return between consecutive month-end adjusted prices
-Corporate actions,Reflected through Yahoo Finance adjusted-price series
-Estimation window,January 2015 to December 2022
-Evaluation window,January 2023 to December 2025
-Missing-data treatment,Use common complete monthly observations; no invented values
-Return units,Decimal returns in calculations
-Common estimation observations,95
+Market-data source,Yahoo Finance via yfinance; saved raw response
+Raw frequency,Daily
+Monthly sampling,Last available adjusted close in each calendar month
+Return definition,"P_adj,t / P_adj,t-1 - 1"
+Corporate-action treatment,Yahoo Adjusted Close; retrieval settings documented in source record
+Estimation window,Requested Jan 2015-Dec 2022; effective common returns Feb 2015-Dec 2022 (95 months)
+Evaluation window,Jan 2023-Dec 2025; isolated from initial decision
+Missing-data treatment,Common complete months only; no imputation
+Benchmark,SPY
+Retrospective-selection limitation,Case universe selected retrospectively; disclosed rather than presented as an unbiased live sample

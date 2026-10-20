@@ -1,2 +1,2 @@
 Status,SnapshotFile,SelectedStrategy,NumberOfTickers,InputFilesFingerprinted
-NOT FROZEN: set CREATE_INITIAL_FREEZE=True only after approval on 22-Oct,data\frozen\initial_policy_2026-10-22.json,Utility_SingleIndex,12,"YahooRawCSV, FrenchRawText, EligibilityEvidence"
+VERIFIED: original 22-Oct policy and raw files unchanged,data\frozen\initial_policy_2026-10-22.json,Utility_SingleIndex,12,"YahooRawCSV, FrenchRawText, EligibilityEvidence"

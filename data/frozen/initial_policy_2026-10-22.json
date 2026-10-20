@@ -1,0 +1,140 @@
+{
+  "SubmissionDate": "2026-10-22",
+  "HistoricalDecisionDate": "2022-12-31",
+  "HistoricalInformationCutoff": "2022-12-31",
+  "EstimationCommonMonths": 95,
+  "Benchmark": "SPY",
+  "CandidateTickers": [
+    "AAPL",
+    "MSFT",
+    "JPM",
+    "JNJ",
+    "PG",
+    "HD",
+    "CAT",
+    "CVX",
+    "KO",
+    "WMT",
+    "SPY",
+    "IWM"
+  ],
+  "SelectedStrategy": "Utility_SingleIndex",
+  "RejectedStrategy": "Eta_Historical_MaxSharpe",
+  "RiskModel": "Single-index covariance",
+  "InitialCapitalUSD": 12000000.0,
+  "GrowthInvestedNotionalUSD": 6757419.941760368,
+  "GrowthWeights": {
+    "AAPL": 0.030614040993988796,
+    "MSFT": 0.039547136906725754,
+    "JPM": 0.06557242686358959,
+    "JNJ": 0.053806970153056466,
+    "PG": 0.02082724261930377,
+    "HD": 0.04354548840532707,
+    "CAT": 0.022959200886777133,
+    "CVX": 0.02995619494470013,
+    "KO": 0.02372494155623836,
+    "WMT": 0.03498344813391193,
+    "SPY": 0.35,
+    "IWM": 0.28446290853638106
+  },
+  "FullDollarAllocation": [
+    {
+      "Sleeve": "2024 liability",
+      "SecurityOrUse": "Beta",
+      "DollarAllocation": 2214672.0
+    },
+    {
+      "Sleeve": "2027 liability",
+      "SecurityOrUse": "Delta",
+      "DollarAllocation": 3021150.6382978726
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "AAPL",
+      "DollarAllocation": 206871.93111064928
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "MSFT",
+      "DollarAllocation": 267236.611573036
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "JPM",
+      "DollarAllocation": 443100.42491764354
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "JNJ",
+      "DollarAllocation": 363596.29311796866
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "PG",
+      "DollarAllocation": 140738.42460756472
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "HD",
+      "DollarAllocation": 294255.15172385203
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "CAT",
+      "DollarAllocation": 155144.96191919013
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "CVX",
+      "DollarAllocation": 202426.58909857777
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "KO",
+      "DollarAllocation": 160319.39318922436
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "WMT",
+      "DollarAllocation": 236397.850051636
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "SPY",
+      "DollarAllocation": 2365096.9796161284
+    },
+    {
+      "Sleeve": "Growth",
+      "SecurityOrUse": "IWM",
+      "DollarAllocation": 1922235.330834897
+    },
+    {
+      "Sleeve": "Implementation",
+      "SecurityOrUse": "Initial trading cost",
+      "DollarAllocation": 6757.419941760368
+    }
+  ],
+  "Assumptions": {
+    "Inflation": 0.025,
+    "RiskAversionA": 4.0,
+    "StockCap": 0.15,
+    "ETFCap": 0.35,
+    "OneWayTradingCost": 0.001,
+    "ParallelRateShock": 0.01,
+    "CurveShapeShock": 0.0075
+  },
+  "MandatoryPaymentsUSD": {
+    "2024": 2400000.0,
+    "2027": 3600000.0
+  },
+  "EvaluationWindow": [
+    "2023-01-01",
+    "2025-12-31"
+  ],
+  "EvaluationRule": "Annual 31-Dec rebalance to fixed 2022 target weights; no re-optimization",
+  "SourceSHA256": {
+    "YahooRawCSV": "7ae950a36561fa454c8e8a1958a0ff882b244d4279eca97502c1e7c738238cf5",
+    "FrenchRawText": "2d0b9d3db8e03e27587fab2618648bf8ad0f8a6e8ae4826f3108832ff5ab652d",
+    "EligibilityEvidence": "b4d818fc54edb1bd37f4a0a5a22c3048e44ea482ba7cbad5256a3bee7ad7c157"
+  }
+}

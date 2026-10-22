@@ -1,9 +1,20 @@
 Item,FrozenDecision
+Case decision date,2022-12-31
 Candidate universe,"AAPL, MSFT, JPM, JNJ, PG, HD, CAT, CVX, KO, WMT, SPY, IWM"
-Estimation window,Jan 2015-Dec 2022 common monthly observations
-Growth benchmark,SPY
-Initial growth strategy,Utility_SingleIndex
-Initial dollar allocation,Table_P7_Full_Allocation
-Material assumptions,Inflation 2.0%; A=4; stock cap 15%; ETF cap 35%; trading cost 0.10%
-Evaluation rule,Compare the frozen growth policy with frozen SPY benchmark over Jan-2023 to Dec-2025; do not refit parameters using evaluation-period observations
-Rebalancing rule,Annual return to frozen target weights on 31 December
+Estimation window,Jan-2015 to Dec-2022; 95 common monthly observations
+Benchmark,SPY
+2024 payment funding,"Beta zero-coupon; initial cost USD 2,214,672"
+2027 payment funding,"Delta + ring-fenced coupons at 0% reinvestment; initial cost USD 3,021,151"
+Recommended growth strategy,Utility_SingleIndex
+Rejected alternative,Eta_Historical_MaxSharpe
+Risk model,Single-index covariance
+Growth capital invested,"USD 6,757,419.94"
+2030 real-value objective,"USD 8,000,000 in December-2022 dollars"
+Base inflation assumption,2.50%
+Base nominal 2030 target,"USD 9,747,223.18"
+Base risk aversion,"A=4; sensitivity [2, 4, 6, 8]"
+Stock / ETF caps,Stock 15%; ETF 35%
+Evaluation window,Jan-2023 to Dec-2025
+Rebalancing rule,Annual 31-Dec rebalance to frozen target weights after any scheduled liability payment
+Re-estimation in evaluation,None
+Initial trading cost,0.10% one-way per dollar traded

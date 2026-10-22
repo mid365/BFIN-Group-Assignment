@@ -10,7 +10,7 @@ The notebook's selected initial growth strategy is `Utility_SingleIndex`, using 
 
 The stored results report that the 2024 and 2027 liabilities are fully funded under their contractual funding plans. In the 36-month frozen evaluation from January 2023 through December 2025, the saved evaluation table reports that the recommended strategy underperformed SPY on cumulative and annualized return, Sharpe ratio, and maximum drawdown. These are historical results under the documented data and assumptions, not forecasts or investment advice.
 
-> **Review before citing results:** The checked-in output files are not fully consistent. In particular, `Section_02_Summary.csv` reports a 2030 nominal target of about USD 9.373 million, while `Table_G1_2030_Goal_Feasibility.csv` and the 2.5% row of `Table_G2_Inflation_Sensitivity.csv` report about USD 9.747 million. The initial decision record separately lists 2.5% as the base inflation assumption. Treat target-dependent results as provisional until the output set is reconciled.
+> **Target reconciliation:** The baseline inflation assumption is 2.5% annually, so the USD 8 million real 2030 objective is USD 9,747,223.18 nominal. The notebook derives this from the baseline parameter and regenerates the mandate, feasibility, sensitivity, and initial-decision tables. `Section_02_Summary.csv` is a checked-in legacy summary; no repository script or notebook cell generates it, so its target and dependent CAGR diagnostic were reconciled directly. The 2.0% scenario remains available in the inflation sensitivity table.
 
 ## Research objectives and investment problem
 
@@ -106,7 +106,7 @@ The effective estimation sample begins in February 2015 because the first monthl
 
 ### Main output groups
 
-The notebook writes CSV results to [`outputs/tables/`](outputs/tables/) and a frozen strategy comparison chart to [`outputs/figures/Figure_E1_Frozen_Strategy_vs_SPY.png`](outputs/figures/Figure_E1_Frozen_Strategy_vs_SPY.png).
+The notebook writes CSV results to [`outputs/tables/`](outputs/tables/) and a decision-record preview to [`outputs/Initial_Decision_Record_22Oct2026.pdf`](outputs/Initial_Decision_Record_22Oct2026.pdf). After running the notebook, generate the formal, two-page submission PDF with `python src\04_generate_initial_decision_record.py`; it is saved as [`outputs/Initial_Decision_Record_Formal_22Oct2026.pdf`](outputs/Initial_Decision_Record_Formal_22Oct2026.pdf). The notebook also writes the frozen strategy comparison chart to [`outputs/figures/Figure_E1_Frozen_Strategy_vs_SPY.png`](outputs/figures/Figure_E1_Frozen_Strategy_vs_SPY.png).
 
 - `Section_02_Summary.csv`, `Section_04_Summary.csv` — liability funding and portfolio decision summaries.
 - `Table_B*.csv` — bond analytics, funding plans, term structures, and rate/interpolation stresses.

@@ -1,5 +1,9 @@
 {
+  "PolicyRecordVersion": 2,
   "SubmissionDate": "2026-10-22",
+  "AnalysisSource": "notebooks/BFIN.ipynb",
+  "DecisionRecordFile": "outputs\\tables\\Table_I1_Initial_Decision_Record.csv",
+  "DecisionRecordSHA256": "91a9a638bd2d74d508d26459b35fb477a3cf77bd49c46c03d01bf9db89e21fa6",
   "HistoricalDecisionDate": "2022-12-31",
   "HistoricalInformationCutoff": "2022-12-31",
   "EstimationCommonMonths": 95,
@@ -22,6 +26,8 @@
   "RejectedStrategy": "Eta_Historical_MaxSharpe",
   "RiskModel": "Single-index covariance",
   "InitialCapitalUSD": 12000000.0,
+  "RealTarget2030USD": 8000000.0,
+  "NominalTarget2030USD": 9747223.180079337,
   "GrowthInvestedNotionalUSD": 6757419.941760368,
   "GrowthWeights": {
     "AAPL": 0.030614040993988796,
@@ -41,77 +47,92 @@
     {
       "Sleeve": "2024 liability",
       "SecurityOrUse": "Beta",
-      "DollarAllocation": 2214672.0
+      "DollarAllocation": 2214672.0,
+      "PercentOfInitialFund": 0.184556
     },
     {
       "Sleeve": "2027 liability",
       "SecurityOrUse": "Delta",
-      "DollarAllocation": 3021150.6382978726
+      "DollarAllocation": 3021150.6382978726,
+      "PercentOfInitialFund": 0.2517625531914894
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "AAPL",
-      "DollarAllocation": 206871.93111064928
+      "DollarAllocation": 206871.93111064928,
+      "PercentOfInitialFund": 0.017239327592554105
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "MSFT",
-      "DollarAllocation": 267236.611573036
+      "DollarAllocation": 267236.611573036,
+      "PercentOfInitialFund": 0.022269717631086334
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "JPM",
-      "DollarAllocation": 443100.42491764354
+      "DollarAllocation": 443100.42491764354,
+      "PercentOfInitialFund": 0.03692503540980363
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "JNJ",
-      "DollarAllocation": 363596.29311796866
+      "DollarAllocation": 363596.29311796866,
+      "PercentOfInitialFund": 0.030299691093164053
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "PG",
-      "DollarAllocation": 140738.42460756472
+      "DollarAllocation": 140738.42460756472,
+      "PercentOfInitialFund": 0.011728202050630394
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "HD",
-      "DollarAllocation": 294255.15172385203
+      "DollarAllocation": 294255.15172385203,
+      "PercentOfInitialFund": 0.024521262643654337
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "CAT",
-      "DollarAllocation": 155144.96191919013
+      "DollarAllocation": 155144.96191919013,
+      "PercentOfInitialFund": 0.012928746826599178
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "CVX",
-      "DollarAllocation": 202426.58909857777
+      "DollarAllocation": 202426.58909857777,
+      "PercentOfInitialFund": 0.01686888242488148
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "KO",
-      "DollarAllocation": 160319.39318922436
+      "DollarAllocation": 160319.39318922436,
+      "PercentOfInitialFund": 0.013359949432435363
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "WMT",
-      "DollarAllocation": 236397.850051636
+      "DollarAllocation": 236397.850051636,
+      "PercentOfInitialFund": 0.01969982083763633
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "SPY",
-      "DollarAllocation": 2365096.9796161284
+      "DollarAllocation": 2365096.9796161284,
+      "PercentOfInitialFund": 0.1970914149680107
     },
     {
       "Sleeve": "Growth",
       "SecurityOrUse": "IWM",
-      "DollarAllocation": 1922235.330834897
+      "DollarAllocation": 1922235.330834897,
+      "PercentOfInitialFund": 0.16018627756957474
     },
     {
       "Sleeve": "Implementation",
       "SecurityOrUse": "Initial trading cost",
-      "DollarAllocation": 6757.419941760368
+      "DollarAllocation": 6757.419941760368,
+      "PercentOfInitialFund": 0.0005631183284800306
     }
   ],
   "Assumptions": {
